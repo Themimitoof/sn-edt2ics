@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sn-edt2ics"
+version = "0.1.0"
+description = "Small script to retrieve classroom timetable and create ics file"
+authors = ["Michael Vieira <dev@mvieira.fr>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.5"
+requests = "^2.21"
+icalendar = "^4.0"
+pep8 = "^1.7"
+
+[tool.poetry.dev-dependencies]
+pycodestyle = "^2.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
